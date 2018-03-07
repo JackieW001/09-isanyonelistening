@@ -27,7 +27,6 @@ var ccircle = function(e){
 svg.addEventListener("click", ccircle);
 
 var change_color = function(e){
-    console.log(e.target.getAttribute("is_green"));
     e.target.setAttribute("fill", "green");
     if (e.target.getAttribute("is_green") == "true"){
 	e.target.remove();
